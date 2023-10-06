@@ -3,9 +3,9 @@
 listint_t *reverse_listint(listint_t **head);
 int is_palindrome(listint_t **head);
 /**
-* reverse_listint - it reverse the list
-* @head: ptr to the first node
-* Return: a ptr to the reverse list head
+* reverse_listint - will do reverse the list
+* @head: the  ptr of the first node
+* Return: will make a ptr to the reverse list head
 **/
 listint_t *reverse_listint(listint_t **head)
 {
@@ -23,9 +23,9 @@ node = next;
 return (*head);
 }
 /**
-* is_palindrome - looks if the list has a palindrome
-* @head: ptr to the first node of the list
-* Return: ZERO if not, and 1 if palindrome
+* is_palindrome - make look if the list has a palindrome
+* @head: to the first node of the list
+* Return: do  zero if not, and 1 if palindrome
 **/
 int is_palindrome(listint_t **head)
 {
@@ -65,4 +65,3 @@ reverse_listint(&mid);
 
 return (1);
 }
-
